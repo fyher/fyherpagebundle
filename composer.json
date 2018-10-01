@@ -1,0 +1,29 @@
+{
+  "name" : "fyher/pagebundle",
+  "description" : "bundle de gestion de page",
+  "type" : "symfony-bundle",
+  "authors" : [{
+    "name" : "Fyher",
+    "email" : "contact@fyher.com"
+  }],
+  "keywords" : [
+    "client bundle"
+  ],
+  "require" : {
+    "php" : "^7.1.3",
+    "symfony/framework-bundle" : ">=4.*",
+    "twig/twig" : "*",
+    "doctrine/doctrine-bundle" : "*",
+    "giggsey/libphonenumber-for-php": "^8.9",
+    "vich/uploader-bundle": "^1.8",
+    "symfony/workflow": "4.1.4"
+  },
+  "autoload": {
+    "psr-4": {
+      "Fyher\\PageBundle\\": ""
+    },
+    "exclude-from-classmap": [
+      "/Tests/"
+    ]
+  }
+}
